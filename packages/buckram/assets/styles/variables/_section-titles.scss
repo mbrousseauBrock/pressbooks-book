@@ -238,11 +238,7 @@ $section-subtitle-font-family: $font-2 !default;
 
 /// Defines the section subtitle font size.
 /// @type String | Map
-$section-subtitle-font-size: (
-  epub: medium,
-  prince: 1em,
-  web: 1em
-) !default;
+$section-subtitle-font-size: 1em !default;
 
 /// Defines the section subtitle font style.
 /// @type String
@@ -284,11 +280,7 @@ $section-author-font-family: $font-2 !default;
 
 /// Defines the section author font size.
 /// @type String | Map
-$section-author-font-size: (
-  epub: medium,
-  prince: 1em,
-  web: 1em
-) !default;
+$section-author-font-size: 1em !default;
 
 /// Defines the section author font style.
 /// @type String
@@ -379,11 +371,7 @@ $aphorism-font-family: $body-font-family !default;
 
 /// Defines aphorism font size.
 /// @type String | Map
-$aphorism-font-size: (
-  epub: small,
-  prince: 0.9em,
-  web: 0.9em
-) !default;
+$aphorism-font-size: 0.9em !default;
 
 /// Defines aphorism font size.
 /// @type String
@@ -414,11 +402,7 @@ $aphorism-indent: (
 
 /// Defines aphorism citation font size.
 /// @type String | Map
-$aphorism-cite-font-size: (
-  epub: small,
-  prince: 0.9em,
-  web: 0.9em
-) !default;
+$aphorism-cite-font-size: 0.9em !default;
 
 /// Defines aphorism citation font style.
 /// @type String

@@ -30,11 +30,7 @@ $title-title-margin-top: $title-title-block-margin-top !default;
 $title-title-margin-right: 0 !default;
 $title-title-margin-left: 0 !default;
 $title-title-font-family: $font-2 !default;
-$title-title-font-size: (
-  epub: x-large,
-  prince: (24 / 9) * 1em,
-  web: (24 / 9) * 1em
-) !default;
+$title-title-font-size: (24 / 9) * 1em !default;
 $title-title-font-style: normal !default;
 $title-title-font-weight: normal !default;
 $title-title-letter-spacing: normal !default;
@@ -47,11 +43,7 @@ $title-subtitle-margin-top: 0 !default;
 $title-subtitle-margin-right: 0 !default;
 $title-subtitle-margin-left: 0 !default;
 $title-subtitle-font-family: $font-3 !default;
-$title-subtitle-font-size: (
-  epub: large,
-  prince: (15 / 9) * 1em,
-  web: (15 / 9) * 1em
-) !default;
+$title-subtitle-font-size: (15 / 9) * 1em !default;
 $title-subtitle-font-style: italic !default;
 $title-subtitle-font-weight: normal !default;
 $title-subtitle-letter-spacing: normal !default;
@@ -68,11 +60,7 @@ $title-author-margin-top: (
 $title-author-margin-right: 0 !default;
 $title-author-margin-left: 0 !default;
 $title-author-font-family: $font-2 !default;
-$title-author-font-size: (
-  epub: large,
-  prince: (15 / 9) * 1em,
-  web: (15 / 9) * 1em
-) !default;
+$title-author-font-size: (15 / 9) * 1em !default;
 $title-author-font-style: italic !default;
 $title-author-font-weight: normal !default;
 $title-author-letter-spacing: 1px !default;
@@ -123,11 +111,7 @@ $before-title-title-block-margin-bottom: 0.5em !default;
 $copyright-float: none !default;
 $copyright-margin-bottom: 1em !default;
 $copyright-font-family: $font-1 !default;
-$copyright-font-size: (
-  epub: small,
-  prince: (8 / 9) * 1em,
-  web: (8 / 9) * 1em
-) !default;
+$copyright-font-size: (8 / 9) * 1em !default;
 $copyright-font-style: normal !default;
 $copyright-font-weight: normal !default;
 $copyright-hyphens: none !default;

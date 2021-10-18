@@ -50,11 +50,7 @@ $section-title-padding-bottom: (epub: 0, prince: 0, web: 0) !default;
 $section-title-subtitle-spacing: $section-title-margin-bottom !default;
 $section-title-author-spacing: $section-title-margin-bottom !default;
 $section-title-font-family: $font-2 !default;
-$section-title-font-size: (
-  epub: x-large,
-  prince: (24 / 9) * 1em,
-  web: (24 / 9) * 1em
-) !default;
+$section-title-font-size: (24 / 9) * 1em !default;
 $section-title-font-style: normal !default;
 $section-title-font-weight: normal !default;
 $section-title-align: left !default;
@@ -85,11 +81,7 @@ $section-subtitle-author-spacing: (
   web: 0.5em
 ) !default;
 $section-subtitle-font-family: $font-2 !default;
-$section-subtitle-font-size: (
-  epub: large,
-  prince: (15 / 9) * 1em,
-  web: (15 / 9) * 1em
-) !default;
+$section-subtitle-font-size: (15 / 9) * 1em !default;
 $section-subtitle-font-style: italic !default;
 $section-subtitle-font-weight: normal !default;
 $section-subtitle-align: left !default;
@@ -99,11 +91,7 @@ $section-subtitle-word-spacing: $section-title-word-spacing !default;
 
 $section-author-margin-bottom: 1em !default;
 $section-author-font-family: $font-2 !default;
-$section-author-font-size: (
-  epub: medium,
-  prince: 1em,
-  web: 1em
-) !default;
+$section-author-font-size: 1em !default;
 $section-author-font-style: normal !default;
 $section-author-font-weight: bold !default;
 $section-author-align: left !default;
@@ -138,11 +126,7 @@ $aphorism-margin-right: (
   web: auto
 ) !default;
 $aphorism-font-family: $body-font-family !default;
-$aphorism-font-size: (
-  epub: small,
-  prince: 0.9em,
-  web: 0.9em
-) !default;
+$aphorism-font-size: 0.9em !default;
 $aphorism-font-style: italic !default;
 $aphorism-font-weight: normal !default;
 $aphorism-line-height: $body-line-height !default;
@@ -153,11 +137,7 @@ $aphorism-indent: (
   web: 0
 ) !default;
 
-$aphorism-cite-font-size: (
-  epub: small,
-  prince: 0.9em,
-  web: 0.9em
-) !default;
+$aphorism-cite-font-size: 0.9em !default;
 $aphorism-cite-font-style: italic !default;
 $aphorism-cite-font-variant: normal !default;
 $aphorism-cite-font-weight: normal !default;
@@ -342,7 +322,7 @@ $chapter-number-border-bottom-style: $section-title-border-bottom-style !default
 $chapter-number-border-bottom-color: $section-title-border-bottom-color !default;
 $chapter-number-font-family: $font-3 !default;
 $chapter-number-font-size: (
-  epub: large,
+  epub: (24 / 9) * 1em,
   prince: (24 / 9) * 1em,
   web: 1em
 ) !default;

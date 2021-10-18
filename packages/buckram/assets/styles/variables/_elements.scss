@@ -8,7 +8,7 @@ $body-font-family: $font-1 !default;
 
 /// Font Size for `<body>` element.
 /// @type String | Map
-$body-font-size: (epub: medium, prince: 11pt, web: 14pt) !default;
+$body-font-size: (epub: 1em, prince: 11pt, web: 14pt) !default;
 
 ///  Font style for `<body>` element.
 /// @type String
